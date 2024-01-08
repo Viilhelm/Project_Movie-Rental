@@ -1,0 +1,114 @@
+/* Reset margins and padding to prevent default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif; /* Or any other preferred font */
+}
+
+/* The top navigation bar */
+.top-nav {
+    background-color: #333; /* Dark background for better contrast */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+/* The logo and navigation items container */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+/* Logo styling */
+.logo {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Navigation items on the right */
+.nav-items {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Ensure items are aligned to the right */
+}
+
+/* Individual navigation items */
+.nav-item {
+    margin-left: 20px;
+    color: white;
+    background-color: #5cb85c; /* Green background for buttons */
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    background-color: #4cae4c;
+}
+
+.welcome-text {
+    color: white; 
+    padding: 10px 15px; 
+    border-radius: 5px;
+    margin-left: 20px;
+    border: none; 
+}
+
+/* Style for the search input and buttons */
+.search-and-add {
+    display: flex;
+    align-items: center;
+    margin-right: 20px; /* Add some space between search and the auth buttons */
+}
+
+/* Adjustments when a user is logged in */
+.auth-buttons {
+    display: flex;
+    align-items: center;
+    margin-left: auto; /* Pushes the auth-buttons to the right */
+}
+
+/* Welcome message and logout link */
+.welcome-message {
+    margin-right: 10px; /* Space before the logout button */
+    color: white; /* White text for the welcome message */
+}
+
+/* Logout button styling */
+.logout-button {
+    text-decoration: none;
+    color: white;
+    background-color: #d9534f; /* Red background for the logout button */
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.logout-button:hover {
+    background-color: #c9302c; /* Darker red on hover */
+}
+
+/* Input and Search button styling inside the search form */
+.search-input {
+    padding: 10px;
+    margin-right: 5px; /* Space between the input and the search button */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.search-button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #eeeeee; /* Light grey background */
+    border: none;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #dddddd; /* Slightly darker grey on hover */
+}
